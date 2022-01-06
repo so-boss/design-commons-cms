@@ -1,5 +1,5 @@
 
-   
+
 import dynamic from 'next/dynamic'
 import { TinaEditProvider } from 'tinacms/dist/edit-state'
 import {
@@ -51,7 +51,7 @@ const App = ({ Component, pageProps }) => {
                 );
               },
             }}
-            
+
             {...pageProps}
           >
             {(livePageProps) => <Component {...livePageProps} />}
